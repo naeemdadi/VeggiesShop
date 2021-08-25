@@ -1,0 +1,162 @@
+header.row {
+  position: fixed;
+  max-width: 100%;
+  width: 100%;
+  background-color: #eee;
+  padding: 0.6rem 0;
+  box-shadow: 3px 0 12px #acacac;
+  z-index: 99;
+}
+header.row button {
+  border: none;
+}
+.mycart__header {
+  color: #000;
+  font-size: 2rem;
+  margin-left: 1.6rem;
+  display: inline;
+}
+
+.mycartprice__header {
+  display: inline-block;
+  font-size: 2.5rem;
+  width: 7.7rem;
+  margin-left: 1.6rem;
+  text-align: center;
+  color: #000;
+}
+
+.header__cart {
+  display: inline;
+  cursor: pointer;
+  position: relative;
+}
+
+.fa-shopping-basket {
+  margin-left: 2rem;
+}
+
+.quantity__counter {
+  position: absolute;
+  bottom: 1.4rem;
+  left: 4rem;
+  font-weight: 400;
+  font-size: 1.4rem;
+  text-align: center;
+  border-radius: 50%;
+  background-color: #6a983c;
+  color: #fff;
+  width: 2.8rem;
+  height: 2.8rem;
+  padding-top: 0.3rem;
+}
+.btn.btnmain__header {
+  background-color: transparent !important;
+  padding-top: 0.8rem;
+}
+
+/* -------- Dropdown --------- */
+.dropdown .fa {
+  font-size: 3rem;
+  padding-left: 0.5rem;
+  vertical-align: middle;
+  padding-bottom: 0.6rem;
+}
+
+.dropdown a:hover,
+.dropdown:hover .fa {
+  color: #6a983c;
+}
+
+.dropdown {
+  display: inline-block;
+  position: relative;
+}
+
+.dropdown .dropdown-content {
+  display: none;
+  position: absolute;
+  right: 0;
+  min-width: 20rem;
+  padding: 1rem;
+  z-index: 1;
+  background-color: #eee;
+  margin: 0;
+  margin-top: 0.4rem;
+  border-radius: 0.5rem;
+}
+
+.dropdown-content a {
+  font-size: 1.8rem;
+  display: block;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.mycartprice__header {
+  display: inline-block;
+  font-size: 2.5rem;
+  width: 7.7rem;
+  margin-left: 1.6rem;
+  text-align: center;
+  color: #000;
+}
+
+header a {
+  padding: 1rem;
+  color: #000;
+  font-size: 2.1rem;
+  cursor: pointer;
+}
+a.brand {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #6a983c;
+}
+.searchbox {
+  width: 100%;
+  max-width: 40%;
+}
+.searchbox .searchinput {
+  width: 100%;
+  height: 38px;
+  border-radius: 32px;
+  outline: none;
+  padding: 0 3rem;
+  border: none;
+  font-size: 16px;
+}
+
+@media (max-width: 1024px) {
+  .searchbox {
+    max-width: 25%;
+  }
+}
+
+@media (max-width: 823px) {
+  header.row {
+    flex-direction: column;
+    gap: 8px;
+  }
+  .searchbox {
+    max-width: 320px;
+  }
+}
+
+@media (max-width: 400px) {
+  header a {
+    font-size: 1.6rem;
+  }
+  .dropdown .fa {
+    font-size: 2rem;
+    padding-bottom: 0rem;
+  }
+  .fa {
+    font-size: 2rem;
+  }
+  .mycart__header {
+    font-size: 1.5rem;
+    margin-left: 1rem;
+  }
+}

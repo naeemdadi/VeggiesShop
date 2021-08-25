@@ -1,0 +1,63 @@
+/* Card */
+.card {
+  border: 0.1rem #c0c0c0 solid;
+  border-radius: 1.5rem;
+  margin: 1rem;
+  padding: 1rem;
+  width: 100%;
+  max-width: 280px;
+}
+.cardBody {
+  padding: 1rem;
+}
+.cardBody h2 {
+  color: #000;
+  font-size: 2rem;
+  font-weight: normal;
+  height: 70px;
+  line-height: 26px;
+}
+.quantity {
+  font-size: 1.6rem;
+  color: gray;
+}
+.cardBody > * {
+  margin-bottom: 0.5rem;
+}
+.priceCart {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+}
+.price {
+  font-size: 2rem;
+  font-weight: 500;
+}
+.cartbtn {
+  margin-top: 0;
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: #6a983c;
+  padding: 0.5rem 1rem;
+  border-radius: 2.5rem;
+  border: 1px solid #6a983c;
+  transition: 0.3s all;
+  cursor: pointer;
+  vertical-align: middle;
+}
+.cartbtn:hover {
+  background-color: #6a983c;
+  color: white;
+}
+.btnpurchasing {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 11.5rem;
+  width: 100%;
+}
+.quantityCounter {
+  font-size: 2rem;
+  font-weight: 500;
+}

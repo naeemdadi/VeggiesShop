@@ -1,0 +1,23 @@
+.cartbtn {
+    margin-top: 0;
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: #6A983C;
+    padding: .5rem 1rem;
+    border-radius: 2.5rem;
+    border: 1px solid #6A983C;
+    transition: .3s all;
+    cursor: pointer;
+    vertical-align: middle;
+}
+.cartbtn:hover {
+    background-color: #6A983C;
+    color: white;
+}
+.individual {
+    padding: 1.2rem 1.7rem;
+}
+.item__cart {
+    font-size: 1.6rem;
+    padding: 0.3rem 0.7rem;
+}

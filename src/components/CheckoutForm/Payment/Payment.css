@@ -1,0 +1,42 @@
+form.paymentform div {
+  padding-top: 16px;
+}
+form.paymentform div label {
+  padding-left: 12px;
+}
+
+.checkout-step__body--payment-step .payment--details {
+  width: 50%;
+  border-bottom: 1px solid #000;
+  padding-bottom: 1rem;
+}
+.checkout-step__body--payment-step .payment--details div {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.checkout-step__body--payment-step .payment--total {
+  display: flex;
+  width: 50%;
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 2rem;
+  padding-top: 1rem;
+}
+.checkout-step__body--payment-step div p {
+  font-size: 16px;
+}
+.checkout-step__body--payment-step div p:last-child {
+  font-weight: bold;
+}
+#zoid-paypal-buttons-uid_18ec6c81f5_mja6ndi6nti {
+  z-index: 1;
+}
+
+@media screen and (max-width: 1020px) {
+  .checkout-step__body--payment-step {
+    margin: 0;
+  }
+}

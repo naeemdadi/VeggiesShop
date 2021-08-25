@@ -1,0 +1,135 @@
+.checkout-right {
+    float: right;
+    width: 292px
+}
+
+.checkout-right .cart-store-promise {
+    margin: 0;
+    padding: 16px;
+    border: 1px solid #eee
+}
+
+.checkout-right__section {
+    background-color: #fbfbfb;
+    border-radius: 3px;
+    border: 1px solid #eee;
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 14px;
+    padding: 16px 20px
+}
+
+.checkout-right__section--cart {
+    color: #666;
+    line-height: normal;
+    padding: 0
+}
+
+.checkout-cart__box {
+    color: #666;
+    font-size: 15px;
+    height: 45px;
+    padding: 13px 20px;
+}
+
+.checkout-cart__title {
+    font-weight: 500;
+    width: 190px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+.display--inline-block {
+    display: inline-block !important
+}
+
+.float-right {
+    float: right
+}
+
+.clear {
+    clear: both
+}
+
+.clear-left {
+    clear: left
+}
+
+.clear-right {
+    clear: right
+}
+
+.checkout-cart__item {
+    background: #fff;
+    border-top: 1px solid #eee;
+    box-sizing: border-box;
+    display: flex;
+    font-size: 12px;
+    padding: 16px 20px;
+    width: 100%;
+    vertical-align: middle;
+    align-items: center
+}
+
+.checkout-cart__item-count {
+    padding-right: 5px;
+    vertical-align: middle
+}
+
+.checkout-cart__item-name-box {
+    width: 100%
+}
+
+.checkout-cart__item-name {
+    width: 164px;
+    padding-top: 4px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+.checkout-cart__item-promo {
+    background-color: #f2fef2;
+    border: 1px solid #51aa1b;
+    border-radius: 3px;
+    color: #51aa1b;
+    display: inline-block;
+    font-weight: 500;
+    line-height: 1;
+    margin-top: 8px;
+    padding: 3px 5px 2px
+}
+
+.checkout-cart__item-unit {
+    color: #999;
+    padding-top: 4px
+}
+
+.checkout-cart__item-price {
+    padding-top: 4px
+}
+.img-loader__img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    transition: opacity .4s ease-in-out;
+    max-width: 100%;
+    max-height: 100%;
+}
+.img-loader__img--shown {
+    opacity: 1;
+}
+.img-loader__wrapper {
+    height: 100%;
+    position: relative;
+}
+.checkout-cart__img-box {
+    padding: 0 12px;
+    width: 84px;
+    height: 57px
+}
+.img-loader__wrapper__wrapper {
+    height: 100%
+}

@@ -1,0 +1,13 @@
+.header-item--checkout-promise {
+    font-size: 16px;
+    /* float: right; */
+    margin-right: 30px;
+}
+
+.checkout-promise-item {
+    background-repeat: no-repeat;
+    background-size: 14px;
+    display: inline-block;
+    margin-left: 40px;
+    padding-left: 24px
+}
