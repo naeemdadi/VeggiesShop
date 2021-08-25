@@ -1,6 +1,7 @@
 {
   "name": "frontend",
   "version": "0.1.0",
+  "proxy": "https://veggiesecom.herokuapp.com",
   "private": true,
   "dependencies": {
     "@stripe/stripe-js": "^1.16.0",
