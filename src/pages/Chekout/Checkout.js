@@ -59,31 +59,10 @@ const Checkout = (props) => {
         ) : (
           <PhoneVerification checkOutStep="checkout-step checkout-step--active" />
         )}
-        {/* {userInfo ? (
-          <DeliveryAddress
-            checkoutStep={checkoutStep}
-            taxes={taxes}
-            totalPay={totalPay}
-            addressChange={addressChange}
-          />
-        ) : (
-          <DeliveryAddress />
-        )} */}
         <DeliveryAddress
           checkoutStep={checkoutStep}
           addressChange={addressChange}
         />
-        {/* {cart.customerAddress ? (
-          <Payment
-            paymentStep={paymentStep}
-            taxes={taxes}
-            totalPay={totalPay}
-            shipping={shipping}
-            dollars={dollars}
-          />
-        ) : (
-          <Payment checkoutStep="checkout-step checkout-step--active" />
-        )} */}
         <Payment
           paymentStep={paymentStep}
           taxes={taxes}

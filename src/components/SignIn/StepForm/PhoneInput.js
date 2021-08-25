@@ -6,7 +6,7 @@ const PhoneInput = ({ value, handleChange, hashHandleChange, nextStep }) => {
     e.preventDefault();
 
     axios
-      .post("api/users/sendOTP", {
+      .post("/api/users/sendOTP", {
         phone: `${value.phone}`,
       })
       .then((res) => {
