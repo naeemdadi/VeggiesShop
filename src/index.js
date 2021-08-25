@@ -21,6 +21,7 @@ import {
   removeFromWishlist,
   wishlistReducer,
 } from "./store/reducer/wishlistReducer";
+import axios from "axios";
 
 const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 
@@ -40,6 +41,8 @@ const store = createStore(
   rootReducer,
   composeEnhancers(applyMiddleware(thunk))
 );
+
+axios.defaults.baseURL = "https://veggiesecom.herokuapp.com";
 
 ReactDOM.render(
   <Provider store={store}>
