@@ -16,8 +16,6 @@ const Home = (props) => {
   const wishlist = useSelector((state) => state.wishlist);
   const searchTerm = useSelector((state) => state.searchFilter);
 
-  // console.log(searchTerm);
-
   const { loading, error, vegetables } = vegetablesData;
 
   useEffect(() => {
