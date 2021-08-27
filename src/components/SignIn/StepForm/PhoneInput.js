@@ -26,7 +26,7 @@ const PhoneInput = ({ value, handleChange, hashHandleChange, nextStep }) => {
         className="back-button"
         style={{ left: "unset", right: "15px" }}
       >
-        Back
+        Next
       </button>
       <h2 className="heading__signin">Phone Number Verification</h2>
       <div className="login__user">
