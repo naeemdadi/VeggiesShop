@@ -21,6 +21,13 @@ const PhoneInput = ({ value, handleChange, hashHandleChange, nextStep }) => {
 
   return (
     <div className="sendotp">
+      <button
+        onClick={nextStep}
+        className="back-button"
+        style={{ left: "unset", right: "15px" }}
+      >
+        Back
+      </button>
       <h2 className="heading__signin">Phone Number Verification</h2>
       <div className="login__user">
         <h3>
