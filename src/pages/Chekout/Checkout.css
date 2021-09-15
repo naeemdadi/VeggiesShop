@@ -113,8 +113,6 @@
     width: 980px;
   }
   .checkout-wrapper {
-    /* margin-bottom: 120px; */
-    /* margin-top: 86px; */
     width: 982px;
   }
   .checkout {
@@ -135,10 +133,7 @@
     padding-top: 32px;
   }
   .checkout-step__number {
-    /* height: 12px; */
     margin-right: 26px;
-    /* padding: 6px; */
-    /* width: 12px; */
   }
   .checkout-step__change-btn {
     right: 26px;
@@ -178,10 +173,7 @@
     padding-top: 32px;
   }
   .checkout-step__number {
-    /* height: 12px; */
     margin-right: 26px;
-    /* padding: 6px; */
-    /* width: 12px; */
   }
   .checkout-step__change-btn {
     right: 26px;

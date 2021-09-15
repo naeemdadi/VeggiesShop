@@ -52,7 +52,6 @@
 }
 
 .sidebar__empty {
-  /* background-color: #ddd; */
   text-align: center;
   padding-top: 51%;
   padding-bottom: 99%;
@@ -70,7 +69,6 @@
 
 /* ------ Single cart item -------- */
 .sidebar__main {
-  /* background-color: #ddd; */
   overflow: auto;
   height: 52.5rem;
   position: fixed;

@@ -71,7 +71,6 @@
 }
 
 .signInModal .sendotp .login__user .otp-phone .otp-phone__input {
-  /* text-align: center; */
   letter-spacing: 42px;
   padding-left: 60px;
   font-size: 21px;

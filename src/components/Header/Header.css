@@ -80,8 +80,6 @@ header.row button {
   padding: 1rem;
   z-index: 1;
   background-color: #eee;
-  /* margin: 0; */
-  /* margin-top: 0.4rem; */
   border-radius: 0.5rem;
 }
 
@@ -153,12 +151,6 @@ a.brand {
 }
 
 @media (max-width: 400px) {
-  /* header a {
-    font-size: 1.6rem;
-  } */
-  /* .dropdown .fa {
-    padding-bottom: 1rem;
-  } */
   .dropdown a {
     padding: 0.5rem;
   }
@@ -166,7 +158,6 @@ a.brand {
     font-size: 2rem;
   }
   .mycart__header {
-    /* font-size: 1.5rem; */
     margin-left: 1rem;
   }
   .btn.btnmain__header {

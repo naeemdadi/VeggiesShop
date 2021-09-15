@@ -1,85 +1,78 @@
 .checkout-login .otp {
-    margin: 0
+  margin: 0;
 }
 
 .checkout-login .login-help {
-    font-size: 12px
+  font-size: 12px;
 }
 
 .checkout-login .login-help__edit-link-holder {
-    font-size: 14px
+  font-size: 14px;
 }
 
 .checkout-login .login-help__edit-link {
-    color: #e96125
+  color: #e96125;
 }
 
 .checkout-login .login-help__edit-link:hover {
-    text-decoration: underline
+  text-decoration: underline;
 }
 
 .checkout-login .login-phone {
-    margin-top: 16px;
-    margin: 0
+  margin-top: 16px;
+  margin: 0;
 }
 
 .checkout-login .login-phone .btn,
 .checkout-login .login-phone .login-button {
-    margin-top: 0
+  margin-top: 0;
 }
 
 .checkout-login__msg {
-    color: #888;
-    margin-bottom: 24px
+  color: #888;
+  margin-bottom: 24px;
 }
 
 .submit__btn {
-    height: 4rem;
-    font-weight: 500;
-    /* border: 1.5px solid #6A983C;
-    border-radius: 0.5rem;
-    background-color: #686868;
-    font-size: 1.8rem;
-    cursor: pointer;
-    background-color: #70a13e;
-    transition: all 0.5s; */
+  height: 4rem;
+  font-weight: 500;
 }
 
 .submit__btn:hover {
-    background-color: #456426 !important;
+  background-color: #456426 !important;
 }
 .login .login__body {
-    border-radius: 3px
+  border-radius: 3px;
 }
 .login__body {
-    margin: auto;
-    padding: 42px 24px;
+  margin: auto;
+  padding: 42px 24px;
 }
 .login__body .btn:not([disabled]):hover {
-    background-color: #c74b14
+  background-color: #c74b14;
 }
 .checkout .login__body {
-    background-color: #fff;
-    padding: 0
+  background-color: #fff;
+  padding: 0;
 }
 
-@media screen and (min-width:1020px) and (max-width:1260px) {
-    .login__body {
-        width: auto;
-        background-color: #f9f9f9
-    }
+@media screen and (min-width: 1020px) and (max-width: 1260px) {
+  .login__body {
+    width: auto;
+    background-color: #f9f9f9;
+  }
 }
 
-@media screen and (min-width:1260px) {
-    .login__body {
-        width: auto;
-        background-color: #f9f9f9
-    }
+@media screen and (min-width: 1260px) {
+  .login__body {
+    width: auto;
+    background-color: #f9f9f9;
+  }
 }
 
-@media screen and (max-width:1020px) {
-    .checkout .login__body {
-        position: static;
-        transform: none
-    }
+@media screen and (max-width: 1020px) {
+  .checkout .login__body {
+    position: static;
+    transform: none;
+  }
 }
