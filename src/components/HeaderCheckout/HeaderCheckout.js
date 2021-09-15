@@ -13,13 +13,13 @@ const HeaderCheckout = () => {
   }
 
   return (
-    <header className="row">
+    <header className="row header-checkout">
       <div>
         <Link className="brand" to="/">
           VeggiesShop
         </Link>
       </div>
-      <div className="header-item header-item--checkout-promise display--none@mobile">
+      <div className="header-item header-item--checkout-promise">
         <div className="checkout-promise-item">
           {userInfo && userInfo.userName
             ? `Hi ${user[0]} please complete your checkout`

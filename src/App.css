@@ -134,6 +134,6 @@ img.medium {
 
 @media (max-width: 823px) {
   .grid-container {
-    grid-template-rows: 16rem 1fr 5rem;
+    grid-template-rows: 18rem 1fr 5rem;
   }
 }

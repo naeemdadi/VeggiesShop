@@ -57,7 +57,6 @@
 
 .checkout-step--complete .checkout-step__number:before {
   content: "\2714";
-  /* font-family: "Font Awesome 5 Free"; */
   font-style: normal;
   color: #fff;
   padding-left: 0.4rem;
@@ -114,8 +113,8 @@
     width: 980px;
   }
   .checkout-wrapper {
-    margin-bottom: 120px;
-    margin-top: 86px;
+    /* margin-bottom: 120px; */
+    /* margin-top: 86px; */
     width: 982px;
   }
   .checkout {
@@ -192,6 +191,12 @@
   .checkout-step__summary {
     margin-left: 52px;
     margin-right: 0;
+  }
+}
+
+@media (max-width: 823px) {
+  .checkout-wrapper {
+    margin-top: 0;
   }
 }
 

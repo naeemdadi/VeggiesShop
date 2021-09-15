@@ -1,13 +1,27 @@
+header.row.header-checkout {
+  z-index: 2;
+}
+
 .header-item--checkout-promise {
-    font-size: 16px;
-    /* float: right; */
-    margin-right: 30px;
+  font-size: 16px;
+  margin-right: 30px;
 }
 
 .checkout-promise-item {
-    background-repeat: no-repeat;
-    background-size: 14px;
-    display: inline-block;
-    margin-left: 40px;
-    padding-left: 24px
+  background-repeat: no-repeat;
+  background-size: 14px;
+  display: inline-block;
+  margin-left: 40px;
+  padding-left: 24px;
+}
+
+@media (max-width: 823px) {
+  .checkout-promise-item {
+    margin-left: 0;
+    padding-left: 0;
+    text-align: center;
+  }
+  .header-item--checkout-promise {
+    margin-right: 0;
+  }
 }

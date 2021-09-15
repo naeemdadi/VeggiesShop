@@ -1,7 +1,11 @@
 import React from "react";
 import axios from "axios";
+import { useDispatch } from "react-redux";
+import { signInClose } from "../../../store/actions/actionCreators/signInAction";
 
 const PhoneInput = ({ value, handleChange, hashHandleChange, nextStep }) => {
+  const dispatch = useDispatch();
+
   const next = (e) => {
     e.preventDefault();
 
@@ -21,6 +25,13 @@ const PhoneInput = ({ value, handleChange, hashHandleChange, nextStep }) => {
 
   return (
     <div className="sendotp">
+      <button
+        className="back-button"
+        style={{ fontSize: "19px", textDecoration: "none" }}
+        onClick={() => dispatch(signInClose())}
+      >
+        &#10006;
+      </button>
       <button
         onClick={nextStep}
         className="back-button"

@@ -32,7 +32,11 @@ const Header = (props) => {
   }
 
   return (
-    <header className="row">
+    <header
+      className={
+        history.location.pathname === "/orders" ? "row header-checkout" : "row"
+      }
+    >
       <div>
         <Link className="brand" to="/">
           VeggiesShop

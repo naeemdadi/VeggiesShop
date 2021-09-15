@@ -1,156 +1,157 @@
 .signInModal .sendotp h2 {
-    text-align: center;
-    color: #333;
-    font-size: 2.1rem;
-    font-weight: 300;
-    padding: 24px 0;
+  text-align: center;
+  color: #333;
+  font-size: 2.1rem;
+  font-weight: 300;
+  padding: 34px 0;
+  padding-bottom: 18px;
 }
 
 .signInModal .sendotp .heading__signin {
-    border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #eee;
 }
 
 .signInModal .sendotp .login__user {
-    background-color: #f9f9f9;
-    padding: 32px 24px;
+  background-color: #f9f9f9;
+  padding: 32px 24px;
 }
 
 .signInModal .sendotp .login__user h3 {
-    text-align: center;
-    font-size: 16px;
-    line-height: 1.6;
-    color: #333;
-    font-weight: 700;
-    margin-bottom: 30px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+  font-weight: 700;
+  margin-bottom: 30px;
 }
 
 .login-phone:after,
 .login-phone:before {
-    color: #333;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
+  color: #333;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .signInModal .sendotp .login__user .login-phone,
 .signInModal .sendotp .login__user .otp-phone {
-    display: block;
-    position: relative;
-    width: 100%;
-    margin: 0 auto;
-    max-width: 300px;
+  display: block;
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 300px;
 }
 
 .signInModal .sendotp .login__user .login-phone .login-button {
-    display: inline-block;
-    line-height: normal;
-    margin: 24px auto 0;
+  display: inline-block;
+  line-height: normal;
+  margin: 24px auto 0;
 }
 
 .signInModal .sendotp .login__user .login-phone .login-phone__input,
 .signInModal .sendotp .login__user .otp-phone .otp-phone__input {
-    display: block;
-    margin: 0 auto;
-    width: 100%;
-    box-sizing: border-box;
-    background: #fff;
-    border: 1px solid #ccc;
-    border-radius: 3px;
-    color: #333;
-    cursor: text;
-    font-size: 16px;
-    letter-spacing: 1px;
-    outline: none;
-    padding: 10px 10px;
-    line-height: 16px;
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  box-sizing: border-box;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  color: #333;
+  cursor: text;
+  font-size: 16px;
+  letter-spacing: 1px;
+  outline: none;
+  padding: 10px 10px;
+  line-height: 16px;
 }
 
 .signInModal .sendotp .login__user .login-phone .login-phone__input {
-    padding-left: 50px;
+  padding-left: 50px;
 }
 
 .signInModal .sendotp .login__user .otp-phone .otp-phone__input {
-    /* text-align: center; */
-    letter-spacing: 42px;
-    padding-left: 60px;
-    font-size: 21px;
+  /* text-align: center; */
+  letter-spacing: 42px;
+  padding-left: 60px;
+  font-size: 21px;
 }
 
 .signInModal .sendotp .login__user .login-phone::after {
-    content: "+91 - ";
-    font-weight: 500;
-    font-size: 14px;
-    position: absolute;
-    left: 12px;
+  content: "+91 - ";
+  font-weight: 500;
+  font-size: 14px;
+  position: absolute;
+  left: 12px;
 }
 
 .signInModal .sendotp .login__user .login-button,
 .signInModal .sendotp .otp-button,
 .signInModal .sendotp .success-button {
-    display: block;
-    margin: 0 auto;
-    width: 100%;
-    max-width: 300px;
-    border-radius: 3px;
-    outline: none;
-    background-color: #70a13e;
-    border: none;
-    margin-top: 18px;
-    padding: 13px 12px;
-    color: #fff;
-    font-size: 14px;
-    text-align: center;
-    font-family: inherit;
-    line-height: 16px;
-    cursor: pointer;
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 300px;
+  border-radius: 3px;
+  outline: none;
+  background-color: #70a13e;
+  border: none;
+  margin-top: 18px;
+  padding: 13px 12px;
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+  font-family: inherit;
+  line-height: 16px;
+  cursor: pointer;
 }
 
 .signInModal .sendotp .success-button {
-    max-width: 160px;
-    margin-top: 0;
-    margin-bottom: 20px;
+  max-width: 160px;
+  margin-top: 0;
+  margin-bottom: 20px;
 }
 
 .signInModal .sendotp .login__user .login-button:hover,
 .signInModal .sendotp .login__user .otp-button:hover {
-    background-color: #486828;
+  background-color: #486828;
 }
 
 .signInModal .sendotp .login__user button.login-button:disabled,
 .signInModal .sendotp .login__user button.otp-button:disabled {
-    background-color: #ccc;
+  background-color: #ccc;
 }
 
 .signInModal .sendotp .login__user .resend-button {
-    width: 100%;
-    outline: none;
-    border: none;
-    margin-top: 12px;
-    font-size: 14px;
-    text-align: center;
-    font-family: inherit;
-    line-height: 16px;
-    cursor: pointer;
-    color: #486828;
-    background: none;
+  width: 100%;
+  outline: none;
+  border: none;
+  margin-top: 12px;
+  font-size: 14px;
+  text-align: center;
+  font-family: inherit;
+  line-height: 16px;
+  cursor: pointer;
+  color: #486828;
+  background: none;
 }
 
 .signInModal .sendotp .back-button {
-    outline: none;
-    border: none;
-    font-size: 16px;
-    text-align: left;
-    font-family: inherit;
-    line-height: 16px;
-    cursor: pointer;
-    color: #486828;
-    background: none;
-    position: absolute;
-    top: 10px;
-    left: 10px;
+  outline: none;
+  border: none;
+  font-size: 16px;
+  text-align: left;
+  font-family: inherit;
+  line-height: 16px;
+  cursor: pointer;
+  color: #486828;
+  background: none;
+  position: absolute;
+  top: 10px;
+  left: 10px;
 }
 
 .signInModal .sendotp .login__user .resend-button:hover,
 .signInModal .sendotp .back-button:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }

@@ -1,70 +1,46 @@
-# Getting Started with Create React App
+# VeggiesShop
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+An Ecommerce app where users can buy vegetables. The app has core features as product listing page, Cart sidebar where users can add their products in cart without logging in and it will be stored in local storage, OTP based authentication and authorization with jwt and twilio sms sending service, full checkout page with Paypal integration, Order review page and wishlist page. It's fully responsive give it a try on mobile as well.
 
-## Available Scripts
+## Live Demo
 
-In the project directory, you can run:
+http://veggiesshop.netlify.app
 
-### `yarn start`
+## Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- ReactJs for frontend,
+- NodeJs and ExpressJs for backend and server
+- Redux for state management
+- Redux Thunk middleware to handle asynchronous requests through redux
+- MongoDB for Database and Mongoose for Database Modeling
+- Custom CSS for styling
+- Axios
+- React Router Dom for Routing
+- Integrated payment with Paypal
+- Twilio to send otp to users for authentication
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Installation and Setup Instructions
 
-### `yarn test`
+Clone down this repository. You will need node and npm installed globally on your machine.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+You will additionally need a backend server with database schema which you can find on
+[VeggiesShopAPI](https://github.com/naeemdadi/VeggiesShop-API)
 
-### `yarn build`
+Installation:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```js
+npm install
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To Start Server:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```js
+npm start
+```
 
-### `yarn eject`
+## Reflection
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- This was my first major MERN stack project to learn ReactJs thoroughly. Project goal was to apply what I have learned and learn something new with creating this project.
+- I wanted to build something where I can understand most of the complexity of React. So I started to build a Grofers type app where users can buy Vegetables. I started with create-react-app boilerplate, then adding react-router and redux.
+- The first problem i ran into was about the product description modal setup. I wanted to make a custom modal without library by writing logic with react-router. It took time but i successfully did it. The other problem was authentication. I wanted to make a OTP based authantication and that with JSON Web Tokens. So I integrated twilio to send otps and set up authentication with JWT successfully.
+- The Twilio free account does not allow to send messages to anyone. The free account is for testing only so the verified users only will get the messages sent from API. So the OTP sent won't work for everyone. That's why I added a test account with which users can login with one tap.

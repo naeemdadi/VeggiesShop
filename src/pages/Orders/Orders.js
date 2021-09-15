@@ -22,7 +22,7 @@ const Orders = () => {
       <h1 style={{ textAlign: "center", fontSize: "24px" }}>Your Orders</h1>
       {loading && <LoadingBox></LoadingBox>}
       {error && <ErrorBox varient="error">{error}</ErrorBox>}
-      {orderHistory && orderHistory.length === 0 ? (
+      {orderHistory?.length === 0 ? (
         <h2 className="wishlistempty">You don't have any orders yet.</h2>
       ) : (
         <table className="table">

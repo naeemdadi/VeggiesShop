@@ -56,7 +56,7 @@ const VerifyOTP = ({
       <div className="login__user">
         <h3>
           Enter 4 digit code sent to your phone
-          <br /> +91{value.phone}
+          <br /> {value?.phone ? `+91${value.phone}` : null}
         </h3>
         <form>
           <div className="otp-phone">

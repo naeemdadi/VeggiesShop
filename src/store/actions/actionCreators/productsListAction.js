@@ -6,9 +6,7 @@ const vegetablesList = () => async (dispatch, getState) => {
     type: actionTypes.VEGETABLE_LIST_REQUEST,
   });
   try {
-    const { data } = await axios.get(
-      "https://veggiesecom.herokuapp.com/api/products"
-    );
+    const { data } = await axios.get("/api/products");
 
     if (localStorage.getItem("cartItems")) {
       const products = getState().cart.cartData.vegetablesCart;
