@@ -65,7 +65,8 @@ const DeliveryAddress = (props) => {
       >
         Delivery Address
       </span>
-      {
+
+      {userInfo ? (
         <button
           onClick={props.addressChange}
           className="btn delivery_change-btn"
@@ -73,7 +74,8 @@ const DeliveryAddress = (props) => {
         >
           Change
         </button>
-      }
+      ) : null}
+
       <div className="checkout-step__body">
         <div className="new-delivery-address-wrapper">
           <form className="new-delivery-address" onSubmit={onFormSubmit}>
