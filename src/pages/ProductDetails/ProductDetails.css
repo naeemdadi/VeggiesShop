@@ -173,7 +173,9 @@
     width: 100%;
   }
   .product {
-    margin-top: 4rem;
+    width: 100%;
+    height: 100%;
+    border-radius: unset;
   }
   .product__cart {
     float: none;
@@ -189,5 +191,20 @@
   }
   .product__cart h6 {
     margin-bottom: 2rem;
+  }
+}
+
+@media (max-width: 490px) {
+  .productbtn {
+    float: right;
+  }
+  .product__cart h6 {
+    float: left;
+  }
+}
+
+@media (max-width: 380px) {
+  .product {
+    padding: 1rem;
   }
 }

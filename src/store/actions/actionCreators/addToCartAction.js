@@ -3,8 +3,6 @@ import * as actionTypes from "../actionTypes/addToCartTypes";
 export const purchasingState = (productId) => (dispatch, getState) => {
   const data = getState().products;
 
-  // console.log(getState();
-
   const product = data.vegetables.find((x) => x._id === productId);
 
   dispatch({
