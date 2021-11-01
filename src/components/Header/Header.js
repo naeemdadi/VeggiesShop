@@ -82,7 +82,7 @@ const Header = (props) => {
           </div>
         ) : (
           <div className="dropdown">
-            <Link to="#" onClick={() => dispatch(signInOpen())}>
+            <Link to="#">
               <i className="fa fa-user-o"></i>
             </Link>
             <div className="dropdown-content">
