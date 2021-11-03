@@ -28,7 +28,7 @@ const Orders = () => {
         <table className="table">
           <thead>
             <tr>
-              <th>ID</th>
+              <th>Order ID</th>
               <th>Billing Cost</th>
               <th>Tax</th>
               <th>Shipping Cost</th>
@@ -41,7 +41,7 @@ const Orders = () => {
             {orderHistory &&
               orderHistory.map((order) => (
                 <tr key={order._id}>
-                  <td>{order._id}</td>
+                  <td>{order._id.toUpperCase()}</td>
                   <td>&#8377;{order.itemsPrice}</td>
                   <td>&#8377;{order.taxPrice}</td>
                   <td>

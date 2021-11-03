@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { Link, withRouter } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 import { AddItemPrimary } from "../../components/Buttons/AddItem";
 import { RemoveItemPrimary } from "../../components/Buttons/RemoveItem";
@@ -130,4 +130,4 @@ const Product = ({ product }, props) => {
   );
 };
 
-export default withRouter(Product);
+export default Product;
