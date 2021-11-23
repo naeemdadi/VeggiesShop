@@ -1,7 +1,10 @@
 import React from "react";
 import axios from "axios";
 import { useDispatch } from "react-redux";
-import { signInClose } from "../../../store/actions/actionCreators/signInAction";
+import {
+  signInClose,
+  signInTestUser,
+} from "../../../store/actions/actionCreators/signInAction";
 
 const PhoneInput = ({ value, handleChange, hashHandleChange, nextStep }) => {
   const dispatch = useDispatch();
@@ -21,6 +24,12 @@ const PhoneInput = ({ value, handleChange, hashHandleChange, nextStep }) => {
       });
 
     nextStep();
+  };
+
+  const guestSignIn = (e) => {
+    e.preventDefault();
+    dispatch(signInTestUser());
+    dispatch(signInClose());
   };
 
   return (
@@ -63,6 +72,9 @@ const PhoneInput = ({ value, handleChange, hashHandleChange, nextStep }) => {
             disabled={value.phone.length < 10}
           >
             Next
+          </button>
+          <button className="login-button" onClick={guestSignIn}>
+            Guest Login
           </button>
         </form>
       </div>

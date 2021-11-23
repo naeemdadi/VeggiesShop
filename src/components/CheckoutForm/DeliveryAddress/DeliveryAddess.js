@@ -16,7 +16,7 @@ const DeliveryAddress = (props) => {
 
   const { loading, userInfo, error } = user;
 
-  const userName = (data) => {
+  const userName = () => {
     if (userInfo) {
       return userInfo.userName;
     } else if (customerAddress) {

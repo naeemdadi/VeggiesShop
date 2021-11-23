@@ -75,6 +75,12 @@ const Payment = (props) => {
           <p>Total Pay: </p>
           <p>{totalPay}&#8377;</p>
         </div>
+        <div>
+          <h3>Test Credientials</h3>
+          <p>Email Id: sb-8hgkh7198474@personal.example.com</p>
+          <p style={{ fontWeight: "normal" }}>Password: rMAm)C1o</p>
+        </div>
+        <br />
         <PayPalButton
           amount={dollars.toFixed(2)}
           onSuccess={successPaymentHandler}

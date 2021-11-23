@@ -90,7 +90,7 @@ const Header = (props) => {
                 Sign In
               </Link>
               <Link to="#" onClick={() => dispatch(signInTestUser())}>
-                Test User Sign In
+                Guest Sign In
               </Link>
             </div>
           </div>
