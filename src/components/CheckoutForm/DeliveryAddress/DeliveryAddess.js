@@ -13,6 +13,7 @@ const DeliveryAddress = (props) => {
   const customerAddress = useSelector((state) => state.cart.customerAddress);
 
   const user = useSelector((state) => state.userSignIn);
+  const dispatch = useDispatch();
 
   const { loading, userInfo, error } = user;
 
@@ -43,10 +44,12 @@ const DeliveryAddress = (props) => {
       setIndex(index);
     }
 
-    setUserData({ ...userData, [input]: e.target.value });
+    setUserData({
+      ...userData,
+      [input]:
+        input !== "name" ? e.target.value.replace(/ /g, "") : e.target.value,
+    });
   };
-
-  const dispatch = useDispatch();
 
   const onFormSubmit = (e) => {
     e.preventDefault();
@@ -66,7 +69,7 @@ const DeliveryAddress = (props) => {
         Delivery Address
       </span>
 
-      {userInfo ? (
+      {userInfo && !(props.checkoutStep === "checkout-step--active") && (
         <button
           onClick={props.addressChange}
           className="btn delivery_change-btn"
@@ -74,7 +77,7 @@ const DeliveryAddress = (props) => {
         >
           Change
         </button>
-      ) : null}
+      )}
 
       <div className="checkout-step__body">
         <div className="new-delivery-address-wrapper">
@@ -165,7 +168,11 @@ const DeliveryAddress = (props) => {
                   >
                     {stateData.states.map((state) => {
                       return (
-                        <option value={state.code} key={state.code}>
+                        <option
+                          value={state.code}
+                          key={state.code}
+                          defaultValue={state.code}
+                        >
                           {state.name}
                         </option>
                       );
@@ -188,7 +195,11 @@ const DeliveryAddress = (props) => {
                   >
                     {stateData.states[index].districts.map((district) => {
                       return (
-                        <option value={district.name} key={district.id}>
+                        <option
+                          value={district.name}
+                          key={district.id}
+                          defaultValue={district.name}
+                        >
                           {district.name}
                         </option>
                       );

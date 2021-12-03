@@ -7,7 +7,6 @@ import "./Checkout.css";
 import CheckOutOrder from "../../components/CheckoutForm/CheckoutOrder/CheckoutOrder";
 
 import "./Checkout.css";
-// import '../../components/CheckoutForm/CheckoutForm.css';
 
 const Checkout = (props) => {
   const userSignIn = useSelector((state) => state.userSignIn);
