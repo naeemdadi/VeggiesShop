@@ -6,6 +6,10 @@ An Ecommerce app where users can buy vegetables. The app has core features as pr
 
 http://veggiesshop.netlify.app
 
+## Check the API
+
+https://github.com/naeemdadi/VeggiesShop-API
+
 ## Technologies Used
 
 - ReactJs for frontend,
