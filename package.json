@@ -1,8 +1,12 @@
 {
-  "name": "frontend",
-  "version": "0.1.0",
-  "proxy": "https://veggiesecom.herokuapp.com",
+  "name": "veggies-shop",
+  "version": "1.0.0",
+  "proxy": "https://veggiesecom.cyclic.app/",
   "private": true,
+  "engines": {
+    "npm": ">=5",
+    "node": ">=8.15.1"
+  },
   "dependencies": {
     "@stripe/stripe-js": "^1.16.0",
     "@testing-library/jest-dom": "^5.11.4",

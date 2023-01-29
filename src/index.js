@@ -42,8 +42,7 @@ const store = createStore(
   composeEnhancers(applyMiddleware(thunk))
 );
 
-axios.defaults.baseURL = "https://veggiesecom.cyclic.app/";
-// axios.defaults.baseURL = "http://localhost:5000";
+axios.defaults.baseURL = process.env.REACT_APP_API_BASE_URL;
 
 ReactDOM.render(
   <Provider store={store}>
