@@ -42,7 +42,7 @@ const store = createStore(
   composeEnhancers(applyMiddleware(thunk))
 );
 
-axios.defaults.baseURL = "https://veggiesecom.up.railway.app/";
+axios.defaults.baseURL = "https://veggiesecom.cyclic.app/";
 // axios.defaults.baseURL = "http://localhost:5000";
 
 ReactDOM.render(
