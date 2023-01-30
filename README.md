@@ -1,6 +1,6 @@
 # VeggiesShop
 
-An Ecommerce app where users can buy vegetables. The app has core features as product listing page, Cart sidebar where users can add their products in cart without logging in and it will be stored in local storage, OTP based authentication and authorization with jwt and twilio sms sending service, full checkout page with Paypal integration, Order review page and wishlist page. It's fully responsive give it a try on mobile as well.
+An Ecommerce app for buying vegetables. The app has core features as product listing page, Cart as a sidebar, OTP based authentication and authorization with jwt and fast2sms sms sending service, full checkout page with Paypal integration, Order review page and wishlist page. It's fully responsive give it a try on mobile as well.
 
 ## Live Demo
 
@@ -21,7 +21,7 @@ https://github.com/naeemdadi/VeggiesShop-API
 - Axios
 - React Router Dom for Routing
 - Integrated payment with Paypal
-- Twilio to send otp to users for authentication
+- Fast2sms to send otp to users for authentication
 
 ## Installation and Setup Instructions
 
