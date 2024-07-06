@@ -1,50 +1,67 @@
 # VeggiesShop
 
-An Ecommerce app for buying vegetables. The app has core features as product listing page, Cart as a sidebar, OTP based authentication and authorization with jwt and fast2sms sms sending service, full checkout page with Paypal integration, Order review page and wishlist page. It's fully responsive give it a try on mobile as well.
+VeggiesShop is an intuitive and user-friendly web application for purchasing fresh vegetables online. Designed with a seamless shopping experience in mind, VeggiesShop provides customers with a simple and efficient way to browse, select, and order fresh produce.
 
 ## Live Demo
 
-http://veggiesshop.netlify.app
+Check out the live site [here](https://veggiesshop.netlify.app/).
 
 ## Check the API
 
 https://github.com/naeemdadi/VeggiesShop-API
 
+## Features
+
+- **Product Catalog**: Browse a wide variety of fresh vegetables with detailed descriptions and images.
+- **Search and Filter**: Easily find products using the search bar and filters.
+- **Shopping Cart**: Add items to your cart and manage quantities before checkout.
+- **Checkout Process**: Simple and secure checkout process with PayPal integration.
+- **Order Review**: Review your orders before finalizing the purchase.
+- **Wishlist**: Save your favorite products for later.
+- **OTP Authentication**: Secure login and registration using OTP-based authentication with JWT and Fast2Sms.
+- **Responsive Design**: Optimized for both desktop and mobile devices.
+
 ## Technologies Used
 
-- ReactJs for frontend,
-- NodeJs and ExpressJs for backend and server
-- Redux for state management
-- Redux Thunk middleware to handle asynchronous requests through redux
-- MongoDB for Database and Mongoose for Database Modeling
-- Custom CSS for styling
-- Axios
-- React Router Dom for Routing
-- Integrated payment with Paypal
-- Fast2sms to send otp to users for authentication
+- **Frontend**: React.js
+- **State Management**: Redux and Redux Thunk
+- **Backend**: Node.js and Express.js
+- **Database**: MongoDB with Mongoose for data modeling
+- **Styling**: Custom CSS
+- **API Requests**: Axios
+- **Routing**: React Router Dom
+- **Payment Integration**: PayPal
+- **SMS Service**: Fast2Sms
+
+## Prerequisites
+
+To run this project locally, ensure you have the following installed:
+
+- Node.js
+- npm (Node Package Manager)
 
 ## Installation and Setup Instructions
 
-Clone down this repository. You will need node and npm installed globally on your machine.
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/naeemdadi/VeggiesShop.git
+    ```
+2. Navigate to the project directory:
+    ```bash
+    cd VeggiesShop
+    ```
+3. Install the dependencies:
+    ```bash
+    npm install
+    ```
 
 You will additionally need a backend server with database schema which you can find on
 [VeggiesShopAPI](https://github.com/naeemdadi/VeggiesShop-API)
 
-Installation:
-
-```js
-npm install
-```
-
-To Start Server:
-
-```js
-npm start
-```
-
 ## Reflection
 
-- This was my first major MERN stack project to learn ReactJs thoroughly. Project goal was to apply what I have learned and learn something new with creating this project.
-- I wanted to build something where I can understand most of the complexity of React. So I started to build a Grofers type app where users can buy Vegetables. I started with create-react-app boilerplate, then adding react-router and redux.
-- The first problem i ran into was about the product description modal setup. I wanted to make a custom modal without library by writing logic with react-router. It took time but i successfully did it. The other problem was authentication. I wanted to make a OTP based authantication and that with JSON Web Tokens. So I integrated twilio to send otps and set up authentication with JWT successfully.
-- The Twilio free account does not allow to send messages to anyone. The free account is for testing only so the verified users only will get the messages sent from API. So the OTP sent won't work for everyone. That's why I added a test account with which users can login with one tap.
+This project was a comprehensive learning experience in building a full-stack MERN application. It started with the goal of creating an e-commerce platform where users can buy vegetables. The challenges faced, such as implementing a custom modal for product descriptions and integrating OTP-based authentication with JWT, provided valuable insights and learning opportunities.
+
+## Contact
+
+For any questions or feedback, please contact at [Gmail](mailto:naeemdadi85@gmail.com).
